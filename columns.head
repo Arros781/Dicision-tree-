@@ -1,0 +1,2 @@
+print(data.columns.tolist())
+print(data.head())
