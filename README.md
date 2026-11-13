@@ -51,12 +51,13 @@ Step 2. Split and model
 train_test_split(..., test_size=0.2, random_state=42, stratify=y).
 DecisionTreeClassifier(random_state=42, max_depth=5, min_samples_split=10, min_samples_leaf=5).
 model.fit(X_train, y_train).
-<img width="698" height="595" alt="Снимок экрана 2026-11-13 182516" src="https://github.com/user-attachments/assets/184b3f86-cfbc-4f12-90f4-ca9039f487cb" />
+<img width="633" height="257" alt="Снимок экрана 2026-11-13 182252" src="https://github.com/user-attachments/assets/0f4e5a27-56a6-405c-9603-e1978d3a5380" />
 
 Step 3. Evaluation
 predict, accuracy_score, classification_report, confusion_matrix.
 Heatmap via seaborn.
-<img width="633" height="257" alt="Снимок экрана 2026-11-13 182252" src="https://github.com/user-attachments/assets/0f4e5a27-56a6-405c-9603-e1978d3a5380" />
+<img width="698" height="595" alt="Снимок экрана 2026-11-13 182516" src="https://github.com/user-attachments/assets/184b3f86-cfbc-4f12-90f4-ca9039f487cb" />
+
 
 Step 4. Interpretation
 plot_tree: structure of the tree (root: Sex <= 0.5, leaf values with samples and class).
