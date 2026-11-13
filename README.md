@@ -62,6 +62,8 @@ Step 4. Interpretation
 plot_tree: structure of the tree (root: Sex <= 0.5, leaf values with samples and class).
 feature_importances_: top features (Sex, Pclass, Fare, Age, Sibsp, Parch, Embarked).
 <img width="1726" height="888" alt="Снимок экрана 2026-11-13 182353" src="https://github.com/user-attachments/assets/61085eaf-ac98-4874-921f-bd855df6f597" />
+<img width="335" height="240" alt="Снимок экрана 2026-11-13 182510" src="https://github.com/user-attachments/assets/d60c04d8-0c94-4e2b-baa6-c38cb2297fab" />
+
 
 Summary
 A decision tree was trained on a pre-encoded local Titanic dataset. Regularization parameters (max_depth, min_samples_split, min_samples_leaf) were used to limit complexity. Quality was checked on a held-out test set with accuracy, a classification report and a confusion matrix; the resulting tree and feature importance table provide an interpretable view of the model.
